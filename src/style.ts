@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div<{ type: string }>`
   color: #fff;
   display: flex;
   justify-content: center;
