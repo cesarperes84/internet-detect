@@ -6,7 +6,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "repository": {
       "type": "git",
       "url": "git+https://github.com/cesarperes84/internet-detect.git"
