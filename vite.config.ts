@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.ts',
       name: 'InternetDetected',
-      fileName: (format) => `internet-detected.${format}.js`,
+      fileName: (format) => `internet-detected.${format}.ts`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
