@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   build: {
     lib: {
-      entry: './src/main.tsx',
+      entry: './src/index.ts',
       name: 'InternetDetected',
       fileName: (format) => `internet-detected.${format}.js`,
     },
