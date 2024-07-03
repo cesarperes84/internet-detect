@@ -1,15 +1,15 @@
 {
-  "name": "@internet-detect",
+  "name": "internet-detect",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cesarperes84/internet-detect.git"
+      "type": "git",
+      "url": "git+https://github.com/cesarperes84/internet-detect.git"
   },
   "homepage": "https://github.com/cesarperes84/internet-detect#readme",
   "scripts": {
